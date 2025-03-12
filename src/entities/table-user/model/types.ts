@@ -7,4 +7,4 @@ export interface IUser {
 	city: string
 	status: boolean
  }
- 
+	 
