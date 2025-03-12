@@ -1,13 +1,13 @@
-export function Table({children}){
-	return <table>
-		{children}
-	</table>
-}
+// export function Table({children}){
+// 	return <table>
+// 		{children}
+// 	</table>
+// }
 
-export function TableRow({children}) {
-	return <tr>{children}</tr>
-}
+// export function TableRow({children}) {
+// 	return <tr>{children}</tr>
+// }
 
-export function TableCell({children}) {
-	return <td>{children}</td>
-}
+// export function TableCell({children}) {
+// 	return <td>{children}</td>
+// }

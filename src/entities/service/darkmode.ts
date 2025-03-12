@@ -1,4 +1,3 @@
-// entities/service/darkmode.ts
 
 export const getInitialDarkMode = (): boolean => {
 	const savedMode = localStorage.getItem('darkMode')
@@ -19,4 +18,4 @@ export const getInitialDarkMode = (): boolean => {
 	  root.classList.remove('dark')
 	}
  }
- 
+	 
