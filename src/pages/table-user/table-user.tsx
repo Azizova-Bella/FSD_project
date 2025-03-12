@@ -73,8 +73,8 @@ export default function TableUser() {
   }
 
   return (
-    <div className={`p-20 min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
-      <div className="mb-4 flex justify-between items-center">
+    <div className={`lg:p-20  min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+      <div className="mb-4 sm:p-10 flex justify-between items-center">
         <Button onClick={() => setIsAddModalOpen(true)}>Add User</Button>
         <Button onClick={handleToggleDark}>
           {darkMode ? 'Light Mode' : 'Dark Mode'}
